@@ -1,0 +1,28 @@
+:root {
+    --color-primary: #6c38cc;
+    --color-text: #fafafa;
+    --color-link-hover: #afb8bf;
+    --color-bg: #16171d;
+    --color-bg-light: #2e2d3d;
+    --color-bg-medium: #1E1F29;
+    --color-stroke: #4d5064;
+    --color-bg-dark: #101114;
+    --color-labels: #E47AD5;
+
+    --border-8: 8px;
+
+    --linear-gradient: linear-gradient(93.33deg, #D77BE6 9.26%, #BE63E6 42.32%, #6C38CC 104.58%);
+}
+
+body {
+    background: var(--color-bg);
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+a {
+    text-decoration: none;
+}

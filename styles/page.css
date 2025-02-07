@@ -1,0 +1,381 @@
+/*Section1*/
+
+.main__section1 {
+    background-color: var(--color-bg-medium);
+}
+
+.main__section1__divs {
+    max-width: calc(1220px - 48px);
+    margin: 0 auto;
+    padding: calc(100px - 40px) 24px 100px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__section1__left__buttons {
+    display: flex;
+    gap: 32px
+}
+
+.main__section1__left__button1 {
+    background-color: var(--color-primary);
+    padding: 16px 32px;
+}
+
+.main__section1__left__button1:hover {
+    background-color: #5a2faa;
+}
+
+.main__section1__left__button1:active {
+    background-color: #4f2996;
+}
+
+.main__section1__left__button2 {
+    border: 1px solid var(--color-stroke);
+    padding: 16px 32px;
+}
+
+.main__section1__left__button2:hover {
+    color: var(--color-link-hover);
+}
+
+.main__section1__left__txt h1 {
+    font-size: 54px;
+    font-weight: 700;
+    color: var(--color-text);
+    margin: 0;
+}
+
+.main__section1__left__txt span {
+    background: linear-gradient(93.33deg, #D77BE6 9.26%, #BE63E6 42.32%, #6C38CC 104.58%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.main__section1__left {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.main__section1__right img {
+    transform: translateX(50px);
+
+}
+
+/* Section2 */
+
+/* Head text */
+
+.main__section2 {
+    max-width: calc(1220px - 48px);
+    margin: 0 auto;
+    padding: 100px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-items: center;
+}
+
+.main__section2_headtext {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.main__section2__headtext2 {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.main__section2__headtext2-p p {
+    font-size: 18px;
+    color: #ffff;
+    margin: 0;
+}
+
+.main__section2__images {
+    display: flex;
+    gap: 24px;
+}
+
+.main__section2__images img:hover {
+    opacity: 0.7;
+}
+
+/* Cards */
+
+
+.main__section2__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.main__section2__button_card {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.main__section2__cards-1 {
+    background-color: var(--color-bg-medium);
+    border-radius: 10px;
+    padding-left: 32px;
+    padding-top: 34px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__section2__cards-1 p {
+    margin: 0;
+}
+
+.main__section2__cards-1__head-date_button {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.button_card {
+    padding-top: 16px;
+}
+
+.button_card a {
+    padding: 16px 32px;
+    border: 1px solid var(--color-stroke);
+    border-radius: 10px;
+    height: 54px;
+    align-content: center;
+    background-color: var(--color-bg-medium);
+}
+
+.button_card a:hover {
+    background-color: var(--color-bg);
+    transition: 0.5s;
+}
+
+.main__section2__cards-1__head-date {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.main__section2__cards-1__head-date_left {
+    display: flex;
+    font-size: 16px;
+    color: var(--color-stroke);
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.main__section2__cards-1__head-date_right {
+    display: flex;
+    font-size: 16px;
+    color: var(--color-stroke);
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.main__section2__cards-1__head-date_up {
+    display: flex;
+    gap: 32px;
+}
+
+.main__section2__cards-1__head-date_h1 h1 {
+    color: #ffffff;
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.main__section2__cards-1__p p {
+    color: #ffffff;
+    font-size: 16px;
+    padding-bottom: 18px;
+    line-height: 24px;
+}
+
+.main__section2__a {
+    margin: 0 auto;
+    margin-top: 16px;
+}
+
+.main__section2__a a {
+    padding: 16px 32px;
+    border: 1px solid var(--color-stroke);
+    border-radius: 10px;
+    height: 54px;
+    background-color: var(--color-bg);
+    align-content: center;
+
+}
+
+.main__section2_a a:hover {
+    background-color: #0f1014;
+}
+
+
+@media (max-width: 960px) {
+    .main__section1__divs {
+        flex-direction: column;
+        gap: 0;
+        padding: 0;
+    }
+
+    .main__section1__left {
+        align-items: center;
+        gap: 30px;
+    }
+
+
+    .main__section1__right img {
+        transform: translateX(0);
+        height: 300px;
+        width: 450px;
+    }
+
+    .main__section1__left__buttons {
+        gap: 20px;
+    }
+
+    .main__section1__left__button1 {
+        padding: 16px 32px;
+    }
+
+    .main__section1__left__button2 {
+        padding: 16px 32px;
+    }
+
+    .main__section1__left__txt h1 {
+        font-size: 40px;
+    }
+
+    .h1_pink h1 {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .h1_white h1 {
+        font-weight: 400;
+        font-size: 34px;
+        text-wrap: wrap;
+        line-height: 41px;
+        word-break: break-word;
+    }
+
+    .main__section2_headtext {
+        gap: 24px;
+    }
+
+    .main__section2__headtext2-p p {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .main__section2__headtext2 {
+        gap: 16px;
+    }
+
+    .main__section2 {
+        gap: 24px;
+        padding: 32px 24px;
+    }
+
+    .main__section2__cards-1 {
+        flex-direction: column;
+        padding: 24px 12px;
+    }
+
+    .main__section2__cards-1_p p {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .button_card {
+        padding: 0;
+    }
+
+    .button_card a {
+        display: flex;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main__section2__cards-1__head-date_up {
+        gap: 16px;
+    }
+
+    .main__section2__cards-1__head-date_left {
+        font-size: 14px;
+        line-height: 17px;
+        white-space: nowrap
+    }
+
+    .main__section2__cards-1__head-date_right {
+        font-size: 14px;
+        line-height: 17px;
+        white-space: nowrap
+    }
+
+    .main__section2__cards-1__head-date_h1 h1 {
+        font-size: 21px;
+    }
+
+    .main__section2__a {
+        justify-content: center;
+        margin: 0
+    }
+
+    .main__section2__a a {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+}
+
+@media (max-width: 460px) {
+    .main__section1__divs {
+        flex-direction: column;
+        gap: 0;
+        padding: 0;
+    }
+
+    .main__section1__left {
+        align-items: center;
+        gap: 24px;
+    }
+
+
+    .main__section1__right img {
+        transform: translateX(0);
+        height: 223px;
+        width: 360px;
+    }
+
+    .main__section1__left__buttons {
+        gap: 16px;
+    }
+
+    .main__section1__left__button1 {
+        padding: 12px 24px;
+    }
+
+    .main__section1__left__button2 {
+        padding: 12px 24px;
+    }
+
+    .main__section1__left__txt h1 {
+        font-size: 30px;
+    }
+
+}

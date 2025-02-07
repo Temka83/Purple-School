@@ -1,0 +1,24 @@
+a {
+    font-size: 18px;
+    color: #ffffff;
+    border-radius: 10px;
+    font-weight: 400;
+}
+
+.h1_pink h1 {
+    font-size: 18px;
+    color: #e47ad5;
+    margin: 0;
+}
+
+.h1_white h1 {
+    font-size: 46px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.h1_both {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
