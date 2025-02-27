@@ -379,3 +379,60 @@
     }
 
 }
+
+/* Section 3 */
+.main__section3 {
+    max-width: calc(1220px - 48px);
+    margin: 100px auto;
+    margin-bottom: 30px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.main__section3-p {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+.main__section3-p p {
+    color: var(--color-labels);
+    font-weight: 400;
+}
+
+.main__section3-p h1 {
+    color: var(--color-text);
+    font-size: 46px;
+    line-height: 55.2px;
+    font-weight: 400;
+}
+
+.main__section3-buttons {
+    display: flex;
+    gap: 16px;
+    margin-top: 48px;
+    margin-bottom: 32px;
+    overflow: scroll;
+    scrollbar-width: none;
+    margin-right: -24px;
+    margin-left: -24px;
+    padding-left: 24px;
+}
+
+.main__section3-buttons::-webkit-scrollbar {
+    display: none;
+
+}
+
+.button-course:hover {
+    background-color: var(--color-bg-medium);
+}
+
+/* Cards */
+
+.main__section3-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 70px;
+}

@@ -8,6 +8,7 @@
     --color-stroke: #4d5064;
     --color-bg-dark: #101114;
     --color-labels: #E47AD5;
+    --color-span: #AFB2BF;
 
     --border-8: 8px;
 
@@ -25,4 +26,12 @@ body {
 
 a {
     text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
 }
