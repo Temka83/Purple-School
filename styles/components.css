@@ -122,6 +122,11 @@ a {
     font-size: 18px;
     padding: 16px 32px;
     background-color: var(--color-primary);
+    cursor: pointer;
+}
+
+.card-bottom button:hover {
+    background-color: #572da5;
 }
 
 .card-img {
