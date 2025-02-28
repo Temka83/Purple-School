@@ -132,3 +132,19 @@ a {
 .card-img {
     width: 100%;
 }
+
+.card {
+    border-radius: 10px;
+}
+
+.card_light {
+    background-color: var(--color-bg-light);
+}
+
+.card_24x32 {
+    padding: 24px 32px;
+}
+
+.card_48x32 {
+    padding: 48px 32px;
+}

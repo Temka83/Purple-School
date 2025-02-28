@@ -384,7 +384,7 @@
 .main__section3 {
     max-width: calc(1220px - 48px);
     margin: 100px auto;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
     padding-left: 24px;
     padding-right: 24px;
 }
@@ -435,4 +435,96 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 70px;
+}
+
+.section__trust {
+    background-color: var(--color-bg-medium);
+    padding: 0 24px;
+}
+
+.background-wrapper {
+    max-width: calc(1220px - 48px);
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.h1_both p {
+    color: #ffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-top: 32px;
+    margin-bottom: 48px;
+}
+
+.trust-wrapper {
+    display: grid;
+    grid-template-columns: [start] repeat(3, 1fr) [end];
+    gap: 0 75px;
+}
+
+.trust-wrapper__top {
+    grid-column: start / end;
+}
+
+.trust-wrapper__stat {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.trust-wrapper__num {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 120%;
+    background: linear-gradient(93.33deg, #D77BE6 9.26%, #BE63E6 42.32%, #6C38CC 104.58%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.trust-wrapper__desc {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    color: #ffff;
+}
+
+.trust-wrapper__h3 {
+    grid-column: start / end;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 120%;
+    color: #ffff;
+}
+
+.trust-wrapper__rating {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 70px;
+}
+
+.trust-wrapper__rate {
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 120%;
+    color: #ffff;
+}
+
+@media (max-width: 1200px) {
+    .trust-wrapper {
+        grid-template-columns: [start] repeat(2, 1fr) [end];
+    }
+}
+
+@media (max-width: 640px) {
+    .trust-wrapper {
+        grid-template-columns: [start] 1fr [end];
+    }
+
+    .background-wrapper {
+        padding: 36px 0;
+    }
 }
